@@ -1,3 +1,13 @@
+# Component Hierarchy
+
+SocialQTable: contains the entirety of the example
+NavBar: contains links - Home link - Notifications link - Messages link - SearchBar: receives all user input - textbox form/submit button
+Bio: user input information - UserName: user input name - UserImage: user input img - UserLinks: Tweets, Following, Followers - UserBioDescription: user input description
+PostsTable: displays and filters the data collection based on user input - user input to post/submit button - displays all users posts
+FriendRequests: displays friend requestions \* add friend request - FriendRequestName: friend request name - FriendRequestButton: add friend button
+
+![Component Diagram](./READMEAssets/SocialQsMediaClone.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
