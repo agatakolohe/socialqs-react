@@ -1,16 +1,24 @@
 import React from "react";
 import Bio from "./Bio";
-// import QBar from "./QBar";
+import QBar from "./QBar";
 import Feed from "./Feed";
-// import PeopleToFollow from "./PeopleToFollow";
+import PeopleToFollow from "./PeopleToFollow";
 
 function Home() {
   return (
     <React.Fragment>
-      <Bio />
-      {/* <QBar /> */}
-      <Feed />
-      {/* <PeopleToFollow /> */}
+      <div class="row">
+        <div class="col-4">
+          <Bio />
+        </div>
+        <div class="col-4">
+          <QBar />
+          <Feed />
+        </div>
+        <div class="col-4">
+          <PeopleToFollow />
+        </div>
+      </div>
     </React.Fragment>
   );
 }

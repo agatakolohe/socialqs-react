@@ -9,7 +9,7 @@
 <img src="https://github.com/besscampbell.png" width="200px" height="auto">
 </div>
 <h3 align="center">Social Q's Social Media App with React 02-08-2021</h3>
-<h4 align="center"> By Agata Kolodziej & Bess Cambell</h4>
+<h4 align="center"> By Agata Kolodziej & Bess Campbell</h4>
 
 # Component Hierarchy
 

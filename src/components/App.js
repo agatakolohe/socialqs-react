@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./Home";
+import Header from "./Header";
 // import SearchBar from "./SearchBar";
 // import Notifications from "./Notifications";
 // import Messages from "./Messages";
@@ -7,10 +8,13 @@ import Home from "./Home";
 function App() {
   return (
     <React.Fragment>
-      <Home />
-      {/* <SearchBar />
-      <Notifications />
-      <Messages /> */}
+      <Header />
+      <div class="container">
+        <Home />
+        {/* <SearchBar />
+        <Notifications />
+        <Messages /> */}
+      </div>
     </React.Fragment>
   );
 }

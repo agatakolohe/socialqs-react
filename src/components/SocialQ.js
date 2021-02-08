@@ -5,7 +5,7 @@ function SocialQ(props) {
   return (
     <React.Fragment>
       <h3>{props.name} </h3>
-      <h4>{props.socialQPost}</h4>
+      <h5>{props.socialQPost}</h5>
       <hr />
     </React.Fragment>
   );
