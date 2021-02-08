@@ -1,3 +1,16 @@
+<div align="center">
+
+# Social Q's Social Media App
+
+</div>
+
+<div align="center">
+<img src="https://github.com/agatakolohe.png" width="200px" height="auto" >
+<img src="https://github.com/besscampbell.png" width="200px" height="auto">
+</div>
+<h3 align="center">Social Q's Social Media App with React 02-08-2021</h3>
+<h4 align="center"> By Agata Kolodziej & Bess Cambell</h4>
+
 # Component Hierarchy
 
 SocialQTable: contains the entirety of the example
@@ -20,9 +33,15 @@ SocialQTable: contains the entirety of the example
   - FriendRequestName: friend request name
   - FriendRequestButton: add friend button
 
+<div align="center">
+
 ![Component Diagram](./READMEAssets/SocialQsMediaClone.png)
 
-# Getting Started with Create React App
+</div>
+
+<details>
+
+<summary>Getting Started with Create React App</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -92,3 +111,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>
