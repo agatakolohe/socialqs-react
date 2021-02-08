@@ -1,19 +1,32 @@
 import React from "react";
 import beMyGuestImage from "./../img/bemyguestlogo.png";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
 
 function Header() {
   return (
     <React.Fragment>
-      <nav class="navbar fixed-top navbar-expand-lg bg-light">
-        <a class="navbar-brand" href="#">
+      {/* <nav class="navbar fixed-top"> */}
+      <Navbar bg="light" fixed="top">
+        <Navbar.Brand href="#home">
           <img
             src={beMyGuestImage}
-            width="20%"
-            height="20%"
-            alt="Be My Guest Logo"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
           />
-        </a>
-        <a href="/">Home</a>
+        </Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+        </Nav>
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+        </Form>
+      </Navbar>
+      {/* <a href="/">Home</a>
         <a href="/">Messages</a>
         <a href="/">Notifications</a>
         <form class="form-inline my-2 my-lg-0">
@@ -27,7 +40,7 @@ function Header() {
             Search
           </button>
         </form>
-      </nav>
+      </nav> */}
     </React.Fragment>
   );
 }

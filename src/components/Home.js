@@ -7,7 +7,7 @@ import PeopleToFollow from "./PeopleToFollow";
 function Home() {
   return (
     <React.Fragment>
-      <div class="row">
+      <div class="row pt-5">
         <div class="col-4">
           <Bio />
         </div>

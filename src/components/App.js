@@ -9,7 +9,8 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <div class="container">
+
+      <div class="container mt-6">
         <Home />
         {/* <SearchBar />
         <Notifications />
